@@ -1,2 +1,6 @@
 # amplitude-plugin
-Plugin para o Construct que permite fazer uso do serviço de analytics do Amplitude (https://amplitude.com/)
+Construct 2 plugin for the Amplitude analytics service (https://amplitude.com/).
+
+This plugin allows you to log any actions performed by the user, passing parameters or not to the service.
+
+Any issues, please let me know. :-)
