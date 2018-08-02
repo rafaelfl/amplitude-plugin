@@ -297,7 +297,7 @@ cr.plugins_.AmplitudePlugin = function (runtime) {
 		var self = this;
 
 		amplitude.getInstance().logEvent(eventName);
-		console.log("Amplitude plugin - " + eventName);
+		//console.log("Amplitude plugin - " + eventName);
 	}
 
 	Acts.prototype.logEventAmplitudeWithParam = function (eventName, params) {
@@ -331,7 +331,7 @@ cr.plugins_.AmplitudePlugin = function (runtime) {
 		}
 
 		paramsToSend += "}";
-		console.log("==> " + paramsToSend);
+		//console.log("==> " + paramsToSend);
 
 		var objParam = JSON.parse(paramsToSend);
 
